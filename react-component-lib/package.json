@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/neo-rooney"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Neo Rooney",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -16,9 +16,11 @@
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@rollup/plugin-typescript": "^11.0.0",
     "@types/react": "^18.0.27",
+    "postcss": "^8.4.21",
     "react": "^18.2.0",
     "rollup": "^3.11.0",
     "rollup-plugin-dts": "^5.1.1",
+    "rollup-plugin-postcss": "^4.0.2",
     "tslib": "^2.5.0",
     "typescript": "^4.9.4"
   },
