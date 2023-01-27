@@ -1,5 +1,8 @@
 {
-  "name": "react-component-lib",
+  "name": "@neo-rooney/react-component-lib",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/neo-rooney"
+  },
   "version": "0.0.1",
   "author": "Neo Rooney",
   "main": "dist/cjs/index.js",
